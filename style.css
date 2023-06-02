@@ -1,0 +1,44 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.intro {
+  background: #23424a;
+  color: white;
+  padding: 7rem 9rem;
+}
+
+.container {
+  width: 50%;
+  max-width: 800px;
+}
+
+.intro-heading {
+  font-size: 3em;
+  font-family: "Roboto";
+  line-height: 1;
+  margin-bottom: 2rem;
+  font-weight: 900;
+}
+
+.intro-content {
+  font-family: "Roboto";
+  font-size: 1.3125em;
+  margin-bottom: 4rem;
+  font-weight: 400;
+}
+
+.btn {
+  display: inline-block;
+  text-decoration: none;
+  color: #23424a;
+  font-size: 1.3125em;
+  text-transform: uppercase;
+  font-family: "Roboto";
+  padding: 1rem 2rem;
+  background: #38cfd9;
+  border-radius: 50px;
+  font-weight: 700;
+}
