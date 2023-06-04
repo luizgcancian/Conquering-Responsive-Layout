@@ -4,27 +4,34 @@
   margin: 0;
 }
 
+body {
+  font-family: "Roboto", sans-serif;
+}
+
 .intro {
   background: #23424a;
   color: white;
-  padding: 7rem 9rem;
+  padding: 100px 0;
+}
+
+.intro__text {
+  width: 60%;
 }
 
 .container {
-  width: 50%;
-  max-width: 800px;
+  width: 80%;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
 .intro-heading {
   font-size: 3em;
-  font-family: "Roboto";
   line-height: 1;
   margin-bottom: 2rem;
   font-weight: 900;
 }
 
 .intro-content {
-  font-family: "Roboto";
   font-size: 1.3125em;
   margin-bottom: 4rem;
   font-weight: 400;
@@ -36,9 +43,14 @@
   color: #23424a;
   font-size: 1.3125em;
   text-transform: uppercase;
-  font-family: "Roboto";
-  padding: 1rem 2rem;
+  padding: 0.75em 2em;
   background: #38cfd9;
-  border-radius: 50px;
+  border-radius: 100px;
   font-weight: 700;
+}
+
+.btn:hover,
+.btn:focus {
+  opacity: 0.75;
+  scale: 0.95;
 }
