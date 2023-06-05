@@ -8,10 +8,10 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
-.intro {
+.super-container {
   background: #23424a;
   color: white;
-  padding: 100px 0;
+  padding: 6.25em 0;
 }
 
 .intro__text {
@@ -53,4 +53,34 @@ body {
 .btn:focus {
   opacity: 0.75;
   scale: 0.95;
+}
+
+.row {
+  display: flex;
+  gap: 3em;
+  text-align: center;
+  padding: 6.25em 0;
+}
+
+.col-title {
+  color: #87629a;
+  font-size: 2.25rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.col-text {
+  font-size: 1.3125rem;
+}
+
+.content-container {
+  background: #136c72;
+  color: white;
+}
+
+.col-title-2 {
+  color: white;
+  font-size: 2.25rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
 }
