@@ -1,86 +1,118 @@
-* {
+/* 
+////// For this challenge ///////
+
+- All text is in the text.md file
+
+// Requirements
+1. Refer to the design specs for the
+   overall layout 
+2. The image should line up with
+   the sidebar in the section
+   below
+
+*/
+
+*,
+*::before,
+*::after {
   box-sizing: border-box;
-  padding: 0;
-  margin: 0;
 }
 
 body {
+  margin: 0;
   font-family: "Roboto", sans-serif;
+  font-size: 1.3rem;
 }
 
-.super-container {
-  background: #23424a;
-  color: white;
-  padding: 6.25em 0;
+img {
+  max-width: 100%;
 }
 
-.intro__text {
-  width: 60%;
+h1 {
+  font-size: 3rem;
+  margin-top: 0;
 }
 
 .container {
   width: 80%;
-  max-width: 1200px;
+  max-width: 1100px;
   margin: 0 auto;
 }
 
-.intro-heading {
-  font-size: 3em;
-  line-height: 1;
-  margin-bottom: 2rem;
-  font-weight: 900;
+.row {
+  /* display: flex => flex container */
+  display: flex;
+  justify-content: space-between;
+  /* can't use yet */
+  /* gap: 100px; */
 }
 
-.intro-content {
-  font-size: 1.3125em;
-  margin-bottom: 4rem;
-  font-weight: 400;
+.hero {
+  padding: 100px 0;
+  background-color: #23424a;
+  color: #fff;
+}
+
+.hero__text {
+  width: 62%;
+}
+
+.hero__img {
+  width: 32%;
+}
+
+.hero p {
+  margin-bottom: 3em;
 }
 
 .btn {
   display: inline-block;
   text-decoration: none;
-  color: #23424a;
-  font-size: 1.3125em;
   text-transform: uppercase;
+  color: #23424a;
+  font-weight: 900;
+  background-color: #38cfd9;
   padding: 0.75em 2em;
-  background: #38cfd9;
   border-radius: 100px;
-  font-weight: 700;
 }
 
 .btn:hover,
 .btn:focus {
   opacity: 0.75;
-  scale: 0.95;
 }
 
-.row {
-  display: flex;
-  gap: 3em;
-  text-align: center;
-  padding: 6.25em 0;
+.pd-top-bot {
+  padding: 2em 0;
+}
+.first-col {
+  width: 60%;
 }
 
-.col-title {
-  color: #87629a;
-  font-size: 2.25rem;
-  font-weight: 700;
-  margin-bottom: 1rem;
-}
-
-.col-text {
-  font-size: 1.3125rem;
-}
-
-.content-container {
+.second-col {
   background: #136c72;
+  padding: 1em 2em;
+  text-align: center;
+  width: 35%;
+}
+
+.first-col h2 {
+  font-size: 2.25rem;
+  font-weight: 700;
+  color: #136c72;
+}
+
+.first-col p {
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+.second-col h2 {
+  font-size: 2.25rem;
   color: white;
 }
 
-.col-title-2 {
+.second-col p {
   color: white;
-  font-size: 2.25rem;
-  font-weight: 700;
-  margin-bottom: 1rem;
+  font-size: 1rem;
+  font-weight: 400;
 }
